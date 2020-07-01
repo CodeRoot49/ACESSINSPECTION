@@ -1,0 +1,284 @@
+/* RESET */
+
+@media (max-width: 1045px) {
+    body {
+        display: none;
+    }
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+}
+
+
+/*  */
+
+.img-custom-w {
+    width: 100%;
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.img-custom-w-login {
+    width: 25%;
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateX(deg) rotateY(0deg)
+    }
+    to {
+        transform: rotateX(0deg) rotateY(360deg)
+    }
+}
+
+.navbar-brand-logo {
+    width: 3.5%;
+}
+
+.card-color-login {
+    background-color: rgb(202, 199, 199);
+    box-shadow: 2px 2px 2px rgb(163, 163, 163);
+}
+
+.img-custom-w-j-5 {
+    width: 65%;
+    margin-left: 50px;
+}
+
+.jumbotron-index {
+    padding: 1.2rem 1.2rem;
+    margin-top: 3%;
+    overflow: hidden;
+    animation-duration: 1s;
+    animation-name: fadeOut;
+}
+
+.btn-danger-color {
+    background-color: rgba(190, 31, 31, 0.8);
+}
+
+.text-color-empIndex {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.display-4 {
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dropdown-index-menu {
+    background-color: rgb(228, 72, 72);
+}
+
+.navbar {
+    height: 60px;
+    padding: 0.8em;
+    background-color: rgba(190, 31, 31, 0.8);
+    color: black;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(255,153,153);
+}
+
+.fontAwesom {
+    margin: 0 10px;
+    color: white;
+}
+
+.nav-link:hover .fontAwesom {
+    color: black;
+}
+
+.list-border-none .text-warning .card {
+    background-color: rgb(231, 231, 231);
+}
+
+.list-border-none:hover .fa-user-plus,
+.list-border-none:hover .fa-users,
+.list-border-none:hover .fa-book,
+.list-border-none:hover .fa-clipboard-list {
+    opacity: 0.6;
+    position: relative;
+    color: rgba(235, 20, 20, 0.8);
+    animation-name: move;
+    animation-duration: 500ms;
+    animation-direction: reverse;
+}
+
+@keyframes move {
+    0% {
+        left: 0;
+    }
+    to {
+        left: 5%;
+    }
+}
+
+.list-border-none {
+    border: none;
+    list-style: none;
+}
+
+.lisit-ul-control {
+    margin-top: 10%;
+    margin-left: 13%;
+}
+
+.card-w {
+    width: 150%;
+    margin: 2% 0;
+}
+
+.list-border-none a {
+    text-decoration: none;
+}
+
+.navbar-brand {
+    margin-top: 4px;
+}
+
+.title-admin h4 {
+    color: white;
+}
+
+.card-header-border-huella {
+    margin: 5% auto;
+    width: 80%;
+    box-shadow: 2px 2px 2px 2px rgb(163, 163, 163);
+    padding: 1em;
+}
+
+.list-quince {
+    list-style: none;
+}
+
+.btn-w-trans {
+    width: 20px;
+}
+
+.titleDate,
+.titleHora {
+    margin: 0;
+}
+
+.titleHora {
+    display: none;
+}
+
+.list-quince:hover .titleDate,
+.titleDate:hover {
+    display: none;
+}
+
+.list-quince:hover .titleHora,
+.titleHora:hover,
+.titleDate:hover {
+    color: white;
+    display: block;
+}
+
+.listaEmpleados,
+.listaReportes {
+    height: 422px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.listaReportes-quinales {
+    height: 408px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.lista-quincenal {
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+.listaReportes-quinales::-webkit-scrollbar-track,
+.listaReportes::-webkit-scrollbar-track,
+.listaEmpleados::-webkit-scrollbar-track {
+    border-radius: 12px;
+}
+
+.listaReportes-quinales::-webkit-scrollbar,
+.lista-quincenal::-webkit-scrollbar,
+.listaReportes::-webkit-scrollbar,
+.listaEmpleados::-webkit-scrollbar {
+    width: 1px;
+}
+
+.listaReportes-quinales::-webkit-scrollbar,
+.lista-quincenalhover::-webkit-scrollbar,
+.listaEmpleados:hover::-webkit-scrollbar,
+.listaReportes:hover::-webkit-scrollbar {
+    width: 5px;
+}
+
+.listaReportes-quinales::-webkit-scrollbar-thumb,
+.lista-quincenal::-webkit-scrollbar-thumb,
+.listaEmpleados::-webkit-scrollbar-thumb,
+.listaReportes::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-color: rgba(190, 31, 31, 0.8);
+}
+
+.verEmpleados {
+    text-decoration: none;
+    color: white;
+    margin: 0 5%;
+}
+
+.verEmpleados-fa-eye,
+.trash-delete-,
+.edit-fa-empleado {
+    font-size: 140%;
+}
+
+.dropdown-menu :nth-child(1):hover,
+.dropdown-menu :nth-child(2):hover,
+.dropdown-menu :nth-child(3):hover {
+    color: rgba(190, 31, 31, 0.8);
+}
+
+.card-huella-box {
+    background-color: rgb(231, 227, 227);
+    box-shadow: 2px 2px 2px 2px rgb(163, 163, 163);
+}
+
+
+/* ShowAll  */
+
+.animated {
+    animation-duration: 5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
